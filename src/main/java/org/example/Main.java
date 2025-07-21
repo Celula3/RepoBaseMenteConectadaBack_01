@@ -41,6 +41,7 @@ public class Main {
             System.out.println(e);
         }
 
+
         //mi parte
         boolean buscarMas = true;
         while (buscarMas) {
@@ -62,18 +63,18 @@ public class Main {
                 String respuestaBusqueda = scanner.nextLine().trim().toLowerCase();
                 if (!respuestaBusqueda.equals("sí") && !respuestaBusqueda.equals("si")) {
                     buscarMas = false;
-                    System.out.println("Gracias por tu ingreso");// Salir del bucle de búsqueda
+                    System.out.println("Gracias por tu ingreso");
                 }
             } else {
                 System.out.println("Eventos encontrados con la palabra clave: '" + palabraClave + "'");
                 for (Evento resultado : resultadosBusqueda) {
                     System.out.println(resultado);
                 }
-                // Si se encontraron resultados, preguntar si quiere buscar más
+
                 System.out.println("¿Quieres realizar otra búsqueda? (sí/no):");
                 String respuestaBusqueda = scanner.nextLine().trim().toLowerCase();
                 if (!respuestaBusqueda.equals("sí") && !respuestaBusqueda.equals("si")) {
-                    buscarMas = false; // Salir del bucle de búsqueda
+                    buscarMas = false;
                     System.out.println("Gracias por tu ingreso");
                 }
             }
