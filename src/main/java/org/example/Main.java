@@ -63,7 +63,7 @@ public class Main {
                 String respuestaBusqueda = scanner.nextLine().trim().toLowerCase();
                 if (!respuestaBusqueda.equals("sí") && !respuestaBusqueda.equals("si")) {
                     buscarMas = false;
-                    System.out.println("Gracias por tu ingreso");
+                    System.out.println("Gracias por tu ingreso, vuelve pronto :)");
                 }
             } else {
                 System.out.println("Eventos encontrados con la palabra clave: '" + palabraClave + "'");
@@ -75,7 +75,7 @@ public class Main {
                 String respuestaBusqueda = scanner.nextLine().trim().toLowerCase();
                 if (!respuestaBusqueda.equals("sí") && !respuestaBusqueda.equals("si")) {
                     buscarMas = false;
-                    System.out.println("Gracias por tu ingreso");
+                    System.out.println("Gracias por tu ingreso, vuelve pronto :)");
                 }
             }
         }
