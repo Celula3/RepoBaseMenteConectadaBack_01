@@ -41,8 +41,7 @@ public class Main {
             System.out.println(e);
         }
 
-
-        //mi parte
+        
         boolean buscarMas = true;
         while (buscarMas) {
             System.out.println("\n--- Buscar eventos por palabra clave ---");
@@ -79,6 +78,7 @@ public class Main {
                 }
             }
         }
+       
 
     }
 }
