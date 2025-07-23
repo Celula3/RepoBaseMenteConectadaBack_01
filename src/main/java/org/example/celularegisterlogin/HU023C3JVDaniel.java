@@ -32,7 +32,7 @@ public class HU023C3JVDaniel {
 
                 break;
             case 3:
-                System.out.println("¡Hasta luego!");
+                System.out.println("Vuelva pronto");
                 break;
             default:
                 System.out.println("Opción no válida.");
