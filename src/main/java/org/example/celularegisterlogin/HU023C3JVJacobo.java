@@ -1,11 +1,15 @@
 package org.example.celularegisterlogin;
 
-public class HU023C3JVJacobo {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
-// Datos registrados (simulados): deben estar en el scope de la clase
-        private static final String EMAIL_REGISTRADO    = "usuario@ejemplo.com";
-        private static final String PASSWORD_REGISTRADA = "miContraseña123";
+public class HU023C3JVJacobo {
+
+    // Datos registrados (simulados): van a nivel de clase
+    private static final String EMAIL_REGISTRADO    = "usuario@ejemplo.com";
+    private static final String PASSWORD_REGISTRADA = "miContraseña123";
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         // Solicitar correo
         System.out.print("Correo: ");
@@ -15,7 +19,7 @@ public class HU023C3JVJacobo {
         System.out.print("Contraseña: ");
         String password = scanner.nextLine().trim();
 
-        // Debug opcional (comentan estas líneas si ya funciona)
+        // Debug opcional (puedes quitarlo si no lo necesitas)
         System.out.println("DEBUG -> ingresado: [" + email + "] / registrado: [" + EMAIL_REGISTRADO + "]");
         System.out.println("DEBUG -> ingresado: [" + password + "] / registrado: [" + PASSWORD_REGISTRADA + "]");
 
@@ -34,4 +38,3 @@ public class HU023C3JVJacobo {
         return EMAIL_REGISTRADO.equals(email) && PASSWORD_REGISTRADA.equals(password);
     }
 }
-
