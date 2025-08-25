@@ -1,4 +1,4 @@
-package org.example.celularegisterlogin;
+/*package org.example.celularegisterlogin;
 
 public class HU023C3JVJacobo {
     private static final String EMAIL_REGISTRADO    = "usuario@ejemplo.com";
@@ -34,4 +34,4 @@ public class HU023C3JVJacobo {
         return EMAIL_REGISTRADO.equals(email) && PASSWORD_REGISTRADA.equals(password);
     }
 }
-
+*/
