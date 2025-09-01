@@ -1,16 +1,19 @@
- HU028C3JVDaniel
-/* package org.example.celularegisterlogin;
-=======
-/*package org.example.celularegisterlogin;
- DevelopCelulaRegister/Login
+package org.example.celularegisterlogin;
+
+
+import java.util.Scanner;
 
 public class HU023C3JVJacobo {
+    private static final String EMAIL_REGISTRADO = "usuario@ejemplo.com";
+    private  static final String PASSWORD_REGISTRADA = "miContraseña123";
+
     public static void main(String[] args) {
 
 // Datos registrados (simulados): deben estar en el scope de la clase
-        private static final String EMAIL_REGISTRADO    = "usuario@ejemplo.com";
-        private static final String PASSWORD_REGISTRADA = "miContraseña123";
 
+
+
+        Scanner scanner = new Scanner(System.in);
         // Solicitar correo
         System.out.print("Correo: ");
         String email = scanner.nextLine().trim();
@@ -38,4 +41,4 @@ public class HU023C3JVJacobo {
         return EMAIL_REGISTRADO.equals(email) && PASSWORD_REGISTRADA.equals(password);
     }
 }
-*/
+
