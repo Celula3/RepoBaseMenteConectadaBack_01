@@ -12,6 +12,10 @@ target/
 *.iml
 *.ipr
 out/
+ HU028C3JVDaniel
+
+=======
+DevelopCelulaRegister/Login
 ### Eclipse ###
 .apt_generated
 .classpath
