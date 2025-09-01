@@ -17,38 +17,28 @@ public class HU040C3JVDilan {
 
         System.out.println("ID\tNOMBRE\t\tEMAIL");
         for (Usuario u : usuarios){
-        System.out.println(u.id + "\t" + u.nombre + "\t\t" + u.email);
+        System.out.println(u.id + "\t" + u.nombre + "\t\t" + u.correo);
     }
 
 
         System.out.println(" \n ---- Exportación CSV ----");
         System.out.println("ID,Nombre,Email");
         for (Usuario u : usuarios){
-        System.out.println(u.id + "," + u.nombre + "," + u.email + ",");
+        System.out.println(u.id + "," + u.nombre + "," + u.correo + ",");
     }
 
 
 
         System.out.println(" \n --Exportacion Texto Plano-- ");
         for (Usuario u : usuarios){
-        System.out.println("Usuario: "  + u.nombre + " | Email: " + u.email);
+        System.out.println("Usuario: "  + u.nombre + " | Email: " + u.correo);
     }
 
 
 }
 }
- class Usuario {
-    public int id;
-    public String nombre;
-    public String email;
 
 
-    public Usuario(int id, String nombre, String email) {
-        this.id = id;
-        this.nombre = nombre;
-        this.email = email;
-    }
-}
 
 
 
